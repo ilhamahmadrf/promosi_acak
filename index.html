@@ -196,13 +196,93 @@ function alreadyUsed(text){
 function emojis(){const n=Math.random()<.62?1:2;return shuffle([...emojiPool]).slice(0,n).join(" ")}
 let emojiEnabled=true;
 const trustLines={
- testi1:"Testimoni pelanggan menjadi penyemangat kami untuk terus berkembang.",testi2:"Terima kasih kepada pelanggan yang telah mempercayai layanan kami.",testi3:"Masukan dari pelanggan membantu kami terus meningkatkan layanan.",testi4:"Apresiasi untuk setiap pelanggan yang telah menggunakan layanan kami.",testi5:"Pengalaman pelanggan menjadi bagian penting dari perjalanan kami.",testi6:"Terima kasih sudah berbagi pengalaman setelah menggunakan layanan kami.",
- verified1:"Akun resmi untuk informasi layanan dan pemesanan.",verified2:"Informasi layanan tersedia melalui akun resmi kami.",verified3:"Pastikan kamu menghubungi akun resmi untuk informasi yang tepat.",
- trusted1:"Kami berkomitmen memberikan layanan yang jelas dan responsif.",trusted2:"Informasi layanan dan harga disampaikan secara transparan.",trusted3:"Kenyamanan pelanggan menjadi perhatian kami.",trusted4:"Terima kasih atas kepercayaan yang telah diberikan.",trusted5:"Kami berusaha memberikan pengalaman pemesanan yang nyaman.",trusted6:"Kami siap membantu dengan komunikasi yang jelas dan ramah.",
- review1:"Lihat testimoni pelanggan untuk mengetahui pengalaman mereka.",review2:"Testimoni pelanggan dapat dilihat di profil kami.",review3:"Cek ulasan yang tersedia sebagai referensi sebelum memesan.",
- service1:"Kami siap membantu kebutuhan dokumen kariermu.",service2:"Setiap dokumen disusun berdasarkan informasi yang kamu berikan.",service3:"Kami berusaha menyajikan dokumen yang rapi dan mudah dibaca.",service4:"Pertanyaan pelanggan akan kami tanggapi sebaik mungkin.",service5:"Kami membantu menyiapkan dokumen karier dengan lebih praktis.",
- honest1:"Kami mengutamakan komunikasi yang jelas sejak awal pemesanan.",honest2:"Silakan tanyakan detail layanan sebelum membuat pesanan.",honest3:"Harga dan detail layanan dapat ditanyakan sebelum order.",
- social1:"Terima kasih kepada semua pelanggan yang telah memesan.",social2:"Dukungan dan kepercayaan pelanggan sangat berarti bagi kami.",social3:"Kami menghargai setiap kepercayaan yang diberikan pelanggan.",social4:"Senang bisa membantu kebutuhan dokumen karier pelanggan."
+ testi1:"Akun Verified, Amanah, Banyak Testimoni Terpercaya.",
+
+testi2:"Terpercaya, Amanah, Pelayanan Cepat Dan Profesional.",
+
+testi3:"Akun Verified Dengan Reputasi Terpercaya.",
+
+testi4:"Banyak Testimoni, Bukti Pelayanan Berkualitas.",
+
+testi5:"Amanah Melayani, Kepuasan Pelanggan Diutamakan.",
+
+testi6:"Akun Terpercaya Dengan Banyak Bukti.",
+
+testi7:"Pelayanan Amanah, Hasil Memuaskan, Terpercaya.",
+
+testi8:"Verified, Profesional, Amanah, Dan Terpercaya Selalu.",
+
+testi9:"Banyak Testimoni Positif Dari Pelanggan.",
+
+testi10:"Kepercayaan Pelanggan Menjadi Prioritas Utama.",
+
+testi11:"Terbukti Amanah Melalui Testimoni Pelanggan.",
+
+testi12:"Akun Verified Dengan Pelayanan Terbaik.",
+
+testi13:"Profesional, Terpercaya, Amanah, Dan Berkualitas Tinggi.",
+
+testi14:"Testimoni Positif Menambah Kepercayaan Pelanggan.",
+
+testi15:"Pelayanan Terpercaya Dengan Bukti Nyata.",
+
+testi16:"Amanah Dalam Melayani Setiap Pelanggan.",
+
+testi17:"Reputasi Baik, Pelayanan Selalu Terpercaya.",
+
+testi18:"Verified, Amanah, Profesional, Dan Banyak Testimoni.",
+
+testi19:"Kepuasan Pelanggan Menjadi Bukti Kepercayaan.",
+
+testi20:"Terpercaya Dengan Pelayanan Amanah Berkualitas.",
+
+verified1:"Akun resmi untuk informasi layanan dan pemesanan.",
+
+verified2:"Informasi layanan tersedia melalui akun resmi kami.",
+
+verified3:"Pastikan kamu menghubungi akun resmi untuk informasi yang tepat.",
+
+trusted1:"Kami berkomitmen memberikan layanan yang jelas dan responsif.",
+
+trusted2:"Informasi layanan dan harga disampaikan secara transparan.",
+
+trusted3:"Kenyamanan pelanggan menjadi perhatian kami.",
+
+trusted4:"Terima kasih atas kepercayaan yang telah diberikan.",
+
+trusted5:"Kami berusaha memberikan pengalaman pemesanan yang nyaman.",
+
+trusted6:"Kami siap membantu dengan komunikasi yang jelas dan ramah.",
+
+review1:"Lihat testimoni pelanggan untuk mengetahui pengalaman mereka.",
+
+review2:"Testimoni pelanggan dapat dilihat di profil kami.",
+
+review3:"Cek ulasan yang tersedia sebagai referensi sebelum memesan.",
+
+service1:"Kami siap membantu kebutuhan dokumen kariermu.",
+
+service2:"Setiap dokumen disusun berdasarkan informasi yang kamu berikan.",
+
+service3:"Kami berusaha menyajikan dokumen yang rapi dan mudah dibaca.",
+
+service4:"Pertanyaan pelanggan akan kami tanggapi sebaik mungkin.",
+
+service5:"Kami membantu menyiapkan dokumen karier dengan lebih praktis.",
+
+honest1:"Kami mengutamakan komunikasi yang jelas sejak awal pemesanan.",
+
+honest2:"Silakan tanyakan detail layanan sebelum membuat pesanan.",
+
+honest3:"Harga dan detail layanan dapat ditanyakan sebelum order.",
+
+social1:"Terima kasih kepada semua pelanggan yang telah memesan.",
+
+social2:"Dukungan dan kepercayaan pelanggan sangat berarti bagi kami.",
+
+social3:"Kami menghargai setiap kepercayaan yang diberikan pelanggan.",
+
+social4:"Senang bisa membantu kebutuhan dokumen karier pelanggan."
 };
 function ctaLine(){
  const account="@"+$("ctaAccount").value;
