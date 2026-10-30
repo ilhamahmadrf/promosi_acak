@@ -287,8 +287,8 @@ social4:"Senang bisa membantu kebutuhan dokumen karier pelanggan."
 function ctaLine(){
  const account="@"+$("ctaAccount").value;
  const lines={
-  order:`Order di ${account}`,pesanDi:`Pesan di ${account}`,lihatAkun:`Lihat akun ${account}`,cek:`Cek juga ${account}`,
-  kunjungiAkun:`Kunjungi akun ${account}`
+  order:`Order di 👉 ${account}`,pesanDi:`Pesan di 👉 ${account}`,lihatAkun:`Lihat akun 👉 ${account}`,cek:`Cek juga 👉 ${account}`,
+  kunjungiAkun:`Kunjungi akun 👉 ${account}`
  };
  return lines[$("ctaChoice").value]||lines.order;
 }
